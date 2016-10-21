@@ -20,7 +20,9 @@ public class Stock {
 		this.votingRights = votingRights;
 	}
 
-
+	public String getTicker(){
+		return this.ticker;
+	}
 
 
 }
